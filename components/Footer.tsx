@@ -30,9 +30,9 @@ const Footer = () => {
 
 			{/* Footer Bottom Section */}
 			<div className="flex  md:flex-row flex-col justify-between items-center md:mx-[100px]">
-				<p className="md:text-base text-sm md:font-normal font-light mb-10 md:mb-0">
+				{/* <p className="md:text-base text-sm md:font-normal font-light mb-10 md:mb-0">
 					Made with ❤️ by Akram
-				</p>
+				</p> */}
 				<div className="flex items-center md:gap-3 gap-6 z-10">
 					{socialMedia.map((info, index) => (
 						<a
