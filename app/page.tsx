@@ -16,7 +16,7 @@ const Home = () => {
 	useEffect(() => {
 		const timer = setTimeout(() => {
 			setIsLoading(false);
-			if (typeof window !== "undefined") {
+			if (typeof window !== "undefined" && typeof document !== "undefined") {
 				const heroSection = document.querySelector("#hero");
 				if (heroSection) {
 					heroSection.scrollIntoView({ behavior: "smooth" });
