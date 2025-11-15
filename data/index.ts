@@ -83,7 +83,7 @@ export const projects = [
 			"/icons/Node.js.svg",
 			"/icons/Express.svg",
 			"/icons/MongoDB.svg",
-			"/icons/JWT.svg",
+			"/icons/jwt.png",
 		],
 		link: "https://github.com/IamAkram321/job-application-tracker",
 	},
