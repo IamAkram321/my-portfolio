@@ -116,10 +116,10 @@ export const projects = [
 		],
 		link: "https://github.com/IamAkram321/Fraud-Detection-App",
 	},
-	{
+		{
 		id: 4,
 		title: "Huffman Compressor",
-		des: "AI-driven food ordering with natural language processing.",
+		des: "A high-performance text compression tool using Huffman Coding, featuring efficient encoding, decoding, and reduced file sizes.",
 		img: "/project_images/compressor.png",
 		iconLists: [
 			"/icons/C++.svg",
@@ -128,6 +128,7 @@ export const projects = [
 		],
 		link: "https://github.com/IamAkram321/Huffman-Compressor",
 	},
+
 	{
 		id: 5,
 		title: "WatchTogether (Ongoing)",
