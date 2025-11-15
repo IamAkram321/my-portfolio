@@ -72,8 +72,24 @@ export const gridItems = [
 ];
 
 export const projects = [
+		{
+		id: 2,
+		title: "JobTrackr – Job Application Tracker",
+		des: "A modern, full-stack job application tracking system with analytics, filtering, authentication, and a beautiful UI built with React 19 and Tailwind.",
+		img: "/project_images/applicationpage.png",
+		iconLists: [
+			"/icons/Next.js.svg",
+			"/icons/Tailwind CSS.svg",
+			"/icons/Node.js.svg",
+			"/icons/Express.svg",
+			"/icons/MongoDB.svg",
+			"/icons/JWT.svg",
+		],
+		link: "https://github.com/IamAkram321/job-application-tracker",
+	},
+
 	{
-		id: 1,
+		id: 2,
 		title: "Real-Time Collaborative Board",
 		des: "Real-Time Board enabling multiple users to write and edit code simultaneously.",
 		img: "/project_images/codesyncss.png",
@@ -88,7 +104,7 @@ export const projects = [
 		link: "https://github.com/IamAkram321/Code-Editor",
 	},
 	{
-		id: 2,
+		id: 3,
 		title: "Fraud Detection System",
 		des: "A machine learning-based web application that predicts fraudulent transactions using supervised learning models.",
 		img: "/project_images/fraud.png",
@@ -101,7 +117,7 @@ export const projects = [
 		link: "https://github.com/IamAkram321/Fraud-Detection-App",
 	},
 	{
-		id: 3,
+		id: 4,
 		title: "Huffman Compressor",
 		des: "AI-driven food ordering with natural language processing.",
 		img: "/project_images/compressor.png",
@@ -113,7 +129,7 @@ export const projects = [
 		link: "https://github.com/IamAkram321/Huffman-Compressor",
 	},
 	{
-		id: 4,
+		id: 5,
 		title: "WatchTogether (Ongoing)",
 		des: "A collaborative web application that allows multiple users to watch YouTube videos in sync while chatting in real time.",
 		img: "/project_images/watch1.png",
@@ -127,7 +143,7 @@ export const projects = [
 		link: "",
 	},
 	{
-		id: 5,
+		id: 6,
 		title: "SaarthiAi",
 		des: "Developed a ChatGPT-like AI chat bot using Next.js and Assistant UI, integrated with Gemini API for conversational capabilities",
 		img: "/project_images/bot.png",
