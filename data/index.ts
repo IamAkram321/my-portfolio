@@ -74,11 +74,11 @@ export const gridItems = [
 export const projects = [
 		{
 		id: 2,
-		title: "JobTrackr – Job Application Tracker",
-		des: "A modern, full-stack job application tracking system with analytics, filtering, authentication, and a beautiful UI built with React 19 and Tailwind.",
+		title: "AI-JobTrackr – Job Application Tracker",
+		des: "A modern, full-stack ai-job application tracking system with analytics, filtering, authentication, and a beautiful UI built with React 19 and Tailwind.",
 		img: "/project_images/applicationpage.png",
 		iconLists: [
-			"/icons/Next.js.svg",
+			"/icons/React.svg",
 			"/icons/Tailwind CSS.svg",
 			"/icons/Node.js.svg",
 			"/icons/Express.svg",

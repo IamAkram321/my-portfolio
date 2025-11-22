@@ -72,7 +72,7 @@ const Hero = () => {
 						<FlipWords words={words} />
 					</div>
 
-					<a href="https://drive.google.com/file/d/1JY0LmOupFU3huVcTFgkgYCwi4TGhouaR/view?usp=sharing">
+					<a href="https://drive.google.com/file/d/1DLC64ptrR4SujAbpk0K5-Nn1JbtYLEF6/view?usp=sharing">
 						<MagicButton
 							title="Show my resume"
 							icon={<FaLocationArrow />}
