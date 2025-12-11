@@ -26,9 +26,9 @@ export default function RootLayout({
 				style={{
 					margin: 0,
 					padding: 0,
-					overflowX: "hidden", // Prevent horizontal scrolling
-					width: "100vw",      // Restrict width to viewport width
-					boxSizing: "border-box", // Ensure consistent sizing
+					overflowX: "hidden", 
+					width: "100vw",      
+					boxSizing: "border-box",
 				}}
 			>
 				<ThemeProvider

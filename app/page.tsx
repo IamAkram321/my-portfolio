@@ -6,8 +6,6 @@ import { navItems } from "@/data";
 import { Loader } from "@/components/Loader1";
 import Footer from "@/components/Footer";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
-
-//  Disable SSR for animation-heavy components
 const Hero = dynamic(() => import("@/components/Hero"), { ssr: false });
 const Grid = dynamic(() => import("@/components/Grid"), { ssr: false });
 const TechStack = dynamic(() => import("@/components/TechStack"), { ssr: false });
@@ -25,7 +23,6 @@ const Home = () => {
 		const timer = setTimeout(() => {
 			setIsLoading(false);
 
-			// ✅ Safe client-side DOM access
 			if (typeof window !== "undefined" && typeof document !== "undefined") {
 				const heroSection = document.querySelector("#hero");
 				if (heroSection) {

@@ -21,7 +21,7 @@ export const gridItems = [
 	},
 	{
 		id: 2,
-		title: "Next.js: My Playground for Web Innovation",
+		title: "React.js: My Playground for Web Innovation",
 		description: "",
 		className: "lg:col-span-2 md:col-span-3 md:row-span-2",
 		imgClassName: "",
@@ -90,7 +90,7 @@ export const projects = [
 
 	{
 		id: 2,
-		title: "Real-Time Collaborative Board",
+		title: "Real-Time Collaborative Code Platform",
 		des: "Real-Time Board enabling multiple users to write and edit code simultaneously.",
 		img: "/project_images/codesyncss.png",
 		iconLists: [
@@ -226,7 +226,7 @@ export const frameWorks = [
 	{ svg: "/icons/C++.svg" },
 	{ svg: "/icons/C.svg" },
 	{ svg: "/icons/Postman.svg" },
-	{ svg: "/icons/VS code.svg" },
+	{ svg: "/icons/vscode.svg" },
 	{ svg: "/icons/NumPy.svg" },
 	{ svg: "/icons/scikit-learn.svg" },
 	{ svg: "/icons/Canva.svg" },
