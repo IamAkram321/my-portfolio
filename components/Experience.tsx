@@ -10,9 +10,9 @@ const experiences = [
 		date: "Jan 2025 – Mar 2025",
 		location: "Hyderabad, Remote",
 		points: [
-			"Developed and deployed SwasthScript, a distribute healthcare platform serving 1K+ users, improving  patient access and operational efficiency.",
-			" Reduced API response time by 60% through asynchronous architecture and Redis-based caching.",
-			"Refactored backend modules using object-oriented design patterns, enhancing maintainability and reducing code duplication by 30%.",
+			"Revamped responsive website components, improving user interaction metrics by 30% based on internal page analytics.",
+			"Developed and maintained a testimonial management system using RESTful APIs, reducing manual administrative effort by 40%.",
+			"Resolved 5+ production issues and optimized frontend and API performance, reducing average page load time by 25%.",
 			"Collaborated with cross-functional teams to optimize infrastructure for high concurrency and uptime.",
 		],
 		icon: (
